@@ -1,0 +1,20 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: hulalala
+name: hulalala
+owner: group:account/asdasdasdasdasd
+orgIdentifier: default
+projectIdentifier: sd2
+spec:
+  lifecycle: experimental
+metadata:
+  description: hulalala
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/Sdhar-ORG-Harness/hulalala
+  links:
+  - title: Website
+    url: http://my-sample-website.com
+  tags:
+  - my-sample
